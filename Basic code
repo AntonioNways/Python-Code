@@ -1,0 +1,15 @@
+##NOTE: Any output from the computer will be put as ##>
+## the basic codes required to build a working search engine are as follow:
+############PRINT <result> - tells the computer to output(print) result, result can be anything, string/number etc.
+## for example:
+print "string"
+##>string
+print 5*2
+##>10
+x="test"
+print x
+##>test
+
+############REFERENCING - require to determine what information we need.
+## referencing can be used for both string and list. To do this, you need to use variable[<start>:<end>], for example:
+a = "test_string"
