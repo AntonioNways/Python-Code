@@ -1,0 +1,15 @@
+def sort_list(x,ranks):
+    count=-1
+    newl=[]+x
+    for site in x:
+        count=count+1
+        bcount=count
+        while bcount<len(x):
+            benchmark=ranks[newl[bcount]]
+            r=ranks[site]
+            if r<benchmark:
+                temp=newl.pop(count)
+                newl.append(temp)
+                return sort_list(newl,ranks)
+            bcount = bcount +1
+    return newl
