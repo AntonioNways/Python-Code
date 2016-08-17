@@ -1,3 +1,6 @@
+##when given [[a,1],[b,5],[c,2],[d,10]] and you are required to sort it from greatest to smallest (eg, [[d,10],[b,5],[c,2],[a,1]])
+
+
 def sort_list(x,ranks):
     count=-1
     newl=[]+x
